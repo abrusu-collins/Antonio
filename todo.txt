@@ -1,3 +1,4 @@
+Black + pink throughout
 navbar (transparent before solid)
 hero(carousel)
 About
