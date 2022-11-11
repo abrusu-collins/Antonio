@@ -1,4 +1,4 @@
-navbar 
+navbar (transparent before solid)
 hero(carousel)
 About
 services
@@ -7,4 +7,6 @@ services
     service name big
     small description
     view service portfolio below
-footer
+quote
+contact form
+footer(https://dashamurashka.com/)
