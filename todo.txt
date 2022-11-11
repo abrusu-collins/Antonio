@@ -1,9 +1,10 @@
 navbar 
 hero(carousel)
 About
-portfolio
-  Each portfolio click takes you to that portfolio
-  each portfolio design
-    portfolio name big
+services
+  Each service click takes you to that service page
+  each service design
+    service name big
     small description
-    view gallery below
+    view service portfolio below
+footer
