@@ -1,4 +1,5 @@
 Black + pink throughout
+Italiano + English
 navbar (transparent before solid)
 hero(carousel)
 About
