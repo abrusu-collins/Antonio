@@ -71,3 +71,14 @@ body{
     margin-top: 20px;
     margin-bottom: 40px;
 }
+
+
+.portfolio{
+    margin: 150px auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.portfolio img{
+    width: 100%;
+}
