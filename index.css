@@ -51,6 +51,7 @@ overflow: hidden;
   transition: height .5s ease-in-out;
   position: fixed;
   z-index: 1000;
+  /* background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)); */
 }
 .nav img{
     width: 50%;
