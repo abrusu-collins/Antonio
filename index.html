@@ -4,11 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
     <title>Document</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    
+    <div class="fade">
+        <div><img src="./images/carousels/carousel10.webp" alt=""></div>
+        <div> <img src="./images/carousels/carousel2.webp" alt=""></div>
+        <div><img src="./images/carousels/carousel6.webp" alt=""></div>
+        <div><img src="./images/carousels/carousel3.webp" alt=""></div>
+        <div><img src="./images/carousels/carousel5.webp" alt=""></div>
+        <div><img src="./images/carousels/carousel7.webp" alt=""></div>
+        <div><img src="./images/carousels/carousel8.webp" alt=""></div>
+        <div><img src="./images/carousels/carousel9.webp" alt=""></div>
+        <div><img src="./images/carousels/carousel1.webp" alt=""></div>
+
+
+      </div>
+
+    <script src="index.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $('.fade').slick({
+        autoplay:true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        cssEase: 'linear',
+        pauseOnHover:'false',
+        pauseOnFocus:'false',
+        arrows:'true'
+      })
+  });
+</script>
 </body>
-<script src="index.js"></script>
 </html>
