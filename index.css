@@ -4,6 +4,7 @@
     --color-header:#f4f4f4;
     --color-text:#c3c3c3;
     --standout-color:#ff0065;
+    --dark:#080808;
 }
 *{
     margin: 0;
@@ -163,7 +164,7 @@ overflow: hidden;
     border-radius: 10px;
 }
 .about .me{
-    background-color: #080808;
+    background-color: var(--dark);
     display: inline;
     padding: 12px 40px;
     border-radius: 5px;
@@ -244,4 +245,11 @@ overflow: hidden;
 .services a:hover{
     background-color: var(--color-header);
     color: var(--standout-color);
+}
+
+/*contacts*/
+.contacts{
+    width: 70%;
+    margin:0 auto 150px auto;
+    background-color: red;
 }
