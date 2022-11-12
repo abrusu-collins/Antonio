@@ -241,3 +241,7 @@ overflow: hidden;
     padding: 10px 30px;
     border-radius: 5px;
 }
+.services a:hover{
+    background-color: var(--color-header);
+    color: var(--standout-color);
+}
