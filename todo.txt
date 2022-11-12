@@ -11,11 +11,4 @@ services😊
     small description
     view service portfolio below
     prices
-quote
-contact form
-footer(https://dashamurashka.com/)
-
-
-
-fixes
-pauseoverhover
+footer(https://dashamurashka.com/)😊
