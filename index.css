@@ -206,3 +206,17 @@ overflow: hidden;
 .award-images2 img{
     width:100% ;
 }
+/* services*/
+.services .service-inner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+    width: 70%;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.services img{
+    width: 100%;
+    border-radius: 10px;
+}
