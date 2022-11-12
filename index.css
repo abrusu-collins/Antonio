@@ -4,3 +4,11 @@
     --color-text:#c3c3c3;
     --standout-color:#ff0065;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--background);
+}
