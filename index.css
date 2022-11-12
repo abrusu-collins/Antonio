@@ -273,6 +273,7 @@ overflow: hidden;
 }
 .social-title{
     margin-bottom: 10px;
+    font-size: 18px;
 }
 .socials a{
     color: var(--standout-color);
