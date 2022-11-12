@@ -156,7 +156,7 @@ overflow: hidden;
     grid-gap: 5rem;
     align-items: center;
     justify-content: center;
-    margin: 100px auto;
+    margin: 150px auto;
 }
 .about img{
     width: 100%;
@@ -172,4 +172,25 @@ overflow: hidden;
     color: var(--color-header);
     font-size: 40px;
     margin: 30px 0;
+}
+
+/* awards*/
+.awards{
+    margin-bottom: 150px;
+}
+.awards-title{
+    color: var(--color-header);
+    font-size: 40px;
+    text-align: center;
+}
+.award-images{
+    width: 70%;
+    margin: 40px auto;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+}
+.award-images img{
+    width:50% ;
 }
