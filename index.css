@@ -277,3 +277,6 @@ overflow: hidden;
 .socials a{
     color: var(--standout-color);
 }
+.socials a:hover{
+    color: var(--color-text);
+}
