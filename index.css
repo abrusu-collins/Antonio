@@ -259,13 +259,8 @@ overflow: hidden;
 }
 .cta{
     color: var(--color-header);
-    font-size: 40px;
-    margin-bottom: 10px;
-}
-.reach{
-    font-size: 25px;
-    margin-bottom: 50px;
- 
+    font-size: 30px;
+    margin-bottom: 80px;
 }
 .socials{
     display: grid;
@@ -277,6 +272,7 @@ overflow: hidden;
 }
 .socials a{
     color: var(--standout-color);
+    text-decoration: none;
 }
 .socials a:hover{
     color: var(--color-text);
