@@ -270,10 +270,11 @@ overflow: hidden;
     margin-bottom: 10px;
     font-size: 18px;
 }
-.socials a{
+.socials a i{
     color: var(--standout-color);
     text-decoration: none;
+    margin-right: 10px;
 }
-.socials a:hover{
+.socials a i:hover{
     color: var(--color-text);
 }
