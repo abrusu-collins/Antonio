@@ -78,7 +78,9 @@ body{
     width: 70%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
 }
 .portfolio img{
     width: 100%;
+    border-radius: 10px;
 }
