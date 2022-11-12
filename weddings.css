@@ -38,6 +38,10 @@ body{
     border-radius: 5px;
     display: inline-block;
 }
+.hero a:hover{
+    background-color: var(--color-header);
+    color: var(--standout-color);
+}
 .hero >p{
     font-size: 40px;
     margin: 20px 0;
