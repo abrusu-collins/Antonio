@@ -251,5 +251,8 @@ overflow: hidden;
 .contacts{
     width: 70%;
     margin:0 auto 150px auto;
-    background-color: red;
+    background-color: var(--dark);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
 }
