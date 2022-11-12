@@ -25,3 +25,7 @@ body{
     margin: 40px auto;
     border-radius: 10px;
 }
+.hero p{
+    color: var(--color-header);
+
+}
