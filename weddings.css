@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --background:#000000;
+    --color-header:#f4f4f4;
+    --color-text:#c3c3c3;
+    --standout-color:#ff0065;
+    --dark:#080808;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text);
+}
+body{
+    background:var(--background);
+}
+.hero{
+    height: 80vh;
+    background-image: url("./images/weddings/wedding1.webp");
+    background-position: bottom;
+    background-size: cover;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 10px;
+}
