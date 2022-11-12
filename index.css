@@ -256,3 +256,23 @@ overflow: hidden;
     border-radius: 10px;
     text-align: center;
 }
+.cta{
+    color: var(--color-header);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.reach{
+    font-size: 25px;
+    margin-bottom: 50px;
+ 
+}
+.socials{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.social-title{
+    margin-bottom: 10px;
+}
+.socials a{
+    color: var(--standout-color);
+}
