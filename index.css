@@ -207,6 +207,9 @@ overflow: hidden;
     width:100% ;
 }
 /* services*/
+.services{
+    margin-bottom: 150px;
+}
 .services .service-inner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
