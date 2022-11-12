@@ -223,8 +223,21 @@ overflow: hidden;
     align-items: center;
     margin: 70px auto;
 }
+.services .service-inner div p{
+    color: var(--color-header);
+    font-size: 30px;
+    margin: 20px 0;
 
+}
 .services img{
     width: 100%;
     border-radius: 10px;
+}
+.services a{
+    display: inline-block;
+    text-decoration: none;
+    background-color: var(--standout-color);
+    color: var(--background);
+    padding: 10px 30px;
+    border-radius: 5px;
 }
