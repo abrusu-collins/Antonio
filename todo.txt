@@ -14,3 +14,9 @@ prices
 quote
 contact form
 footer(https://dashamurashka.com/)
+
+
+
+fixes
+
+pauseoverhover
