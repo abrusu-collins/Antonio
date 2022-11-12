@@ -10,7 +10,7 @@ services😊
     service name big
     small description
     view service portfolio below
-prices
+    prices
 quote
 contact form
 footer(https://dashamurashka.com/)
@@ -18,5 +18,4 @@ footer(https://dashamurashka.com/)
 
 
 fixes
-
 pauseoverhover
