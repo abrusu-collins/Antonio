@@ -4,7 +4,7 @@ navbar (transparent before solid)😊
 hero(carousel)😊
 About😊
 Awards😊
-services
+services😊
   Each service click takes you to that service page
   each service design
     service name big
