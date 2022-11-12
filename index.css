@@ -210,6 +210,11 @@ overflow: hidden;
 .services{
     margin-bottom: 150px;
 }
+.service-title{
+    color: var(--color-header);
+    font-size: 40px;
+    text-align: center;
+}
 .services .service-inner{
     display: grid;
     grid-template-columns: repeat(2,1fr);
