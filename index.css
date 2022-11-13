@@ -42,6 +42,7 @@ overflow: hidden;
 
 
 /* navbar */
+
 .container {
   max-width: 920px;
   margin: 20px auto;
@@ -148,6 +149,9 @@ overflow: hidden;
   .toggler {
     display: block;
   }
+}
+.no-display{
+  display: none;
 }
 /*end of navbar*/
 
