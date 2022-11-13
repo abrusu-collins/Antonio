@@ -321,8 +321,22 @@ overflow: hidden;
       width: 80%;
     }
     }
-    @media screen and (max-width:700px) {
+    @media screen and (max-width:500px) {
       .about, .services .service-inner{
+        width: 90%;
+      }
+      .award-images{
+       grid-template-columns: repeat(2, 1fr);
+       width: 90%;
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+
+      }
+      .awards  .award-images2 img, .awards  .award-images img{
+        width: 80%;
+      }
+      .award-images2{
         width: 90%;
       }
       }
