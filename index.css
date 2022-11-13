@@ -341,13 +341,13 @@ overflow: hidden;
       }
  }
  @media screen and (max-width:837px) {
-  .nav{
-    height:55px;
-  }
   .no-display{
-    display: block;
+    display: inline-block;
   }
   .display-no{
     display: none;
+  }
+  .nav{
+    height: 13vh;
   }
 }
