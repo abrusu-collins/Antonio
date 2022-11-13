@@ -74,7 +74,7 @@ body{
 
 
 .portfolio{
-    margin: 150px auto;
+    margin: 150px auto 0 auto;
     width: 70%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -83,4 +83,21 @@ body{
 .portfolio img{
     width: 100%;
     border-radius: 10px;
+}
+.more{
+    text-align: center;
+    margin: 150px auto;
+}
+.more a{
+    background-color: var(--standout-color);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: var(--background);
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.more a:hover{
+    background-color: var(--color-header);
+    color: var(--standout-color);
 }
