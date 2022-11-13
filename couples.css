@@ -18,7 +18,7 @@ body{
     background:var(--background);
 }
 .hero{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/couples/couples1.webp");
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/couples/couples-banner.webp");
     background-position: top;
     background-size: cover;
     width: 80%;
