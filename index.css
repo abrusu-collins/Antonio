@@ -339,4 +339,13 @@ overflow: hidden;
       .award-images2{
         width: 70%;
       }
-      }
+ }
+ @media screen and (max-width:837px) {
+ 
+  .no-display{
+    display: block !important;
+  }
+  .display-no{
+    display: none;
+  }
+}
