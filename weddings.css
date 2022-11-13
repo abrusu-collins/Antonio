@@ -123,4 +123,10 @@ body{
     .portfolio{
         grid-template-columns: 1fr; 
     }
+}
+@media screen and (max-width:501px) {
+    .hero .grid{
+        width: 90%;
     }
+}
+
