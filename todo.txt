@@ -1,14 +1,2 @@
-Black + pink throughout 
 Italiano + English
-navbar (transparent before solid)😊
-hero(carousel)😊
-About😊
-Awards😊
-services😊
-  Each service click takes you to that service page
-  each service design
-    service name big
-    small description
-    view service portfolio below
-    prices
-footer(https://dashamurashka.com/)😊
+
