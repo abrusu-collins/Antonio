@@ -300,3 +300,9 @@ overflow: hidden;
     width: 45%;
   }
 }
+@media screen and (max-width:1000px) {
+.about{
+  grid-template-columns: 1fr;
+  width: 60%;
+}
+}
