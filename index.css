@@ -341,9 +341,11 @@ overflow: hidden;
       }
  }
  @media screen and (max-width:837px) {
- 
+  .nav{
+    height:55px;
+  }
   .no-display{
-    display: block !important;
+    display: block;
   }
   .display-no{
     display: none;
