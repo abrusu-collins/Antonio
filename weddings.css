@@ -116,5 +116,8 @@ body{
 }
 }
 @media screen and (max-width:651px) {
-
+    .hero .grid{
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
     }
