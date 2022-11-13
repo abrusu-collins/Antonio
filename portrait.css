@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root{
+    --background:#000000;
+    --color-header:#f4f4f4;
+    --color-text:#c3c3c3;
+    --standout-color:#ff0065;
+    --dark:#080808;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: var(--color-text);
+    scroll-behavior: smooth;
+}
+body{
+    background:var(--background);
+}
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/weddings/wedding1.webp");
+    background-position: bottom;
+    background-size: cover;
+    width: 80%;
+    margin: 40px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.hero p{
+    color: var(--color-header);
+
+}
+.hero a{
+    background-color: var(--standout-color);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: var(--background);
+    border-radius: 5px;
+    display: inline-block;
+}
+.hero >a{
+    margin-bottom: 40px;
+
+}
+.hero a:hover{
+    background-color: var(--color-header);
+    color: var(--standout-color);
+}
+.hero >p{
+    font-size: 40px;
+    padding: 40px 0;
+}
+.hero .grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5rem;
+    margin: auto;
+    width: 70%;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+.hero .grid div{
+    padding: 30px 0;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+.middle{
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+
+.portfolio{
+    margin: 150px auto 0 auto;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 3rem;
+}
+.portfolio img{
+    width: 100%;
+    border-radius: 10px;
+}
+.more{
+    text-align: center;
+    margin: 150px auto;
+}
+.more a{
+    background-color: var(--standout-color);
+    padding: 10px 40px;
+    text-decoration: none;
+    color: var(--background);
+    border-radius: 5px;
+    display: inline-block;
+
+}
+.more a:hover{
+    background-color: var(--color-header);
+    color: var(--standout-color);
+}
+
+/* media queries*/
+@media screen and (max-width:951px) {
+    .hero .grid{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:901px) {
+.hero, .portfolio{
+    width: 90%;
+}
+}
+@media screen and (max-width:651px) {
+    .hero .grid{
+        grid-template-columns: 1fr;
+        width: 70%;
+    }
+    .portfolio{
+        grid-template-columns: 1fr; 
+    }
+}
+@media screen and (max-width:501px) {
+    .hero .grid{
+        width: 90%;
+    }
+}
+
