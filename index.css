@@ -292,3 +292,11 @@ overflow: hidden;
     width: 40%;
   }
 }
+@media screen and (max-width:1120px) {
+  .about, .award-images,   .services .service-inner, .contacts{
+    width: 90%;
+  }
+  .award-images2{
+    width: 45%;
+  }
+}
