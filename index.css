@@ -327,16 +327,12 @@ overflow: hidden;
       }
       .award-images{
        grid-template-columns: repeat(2, 1fr);
-       width: 90%;
-      margin: auto;
-      align-items: center;
-      justify-content: center;
-
+       width: 70%;
       }
       .awards  .award-images2 img, .awards  .award-images img{
-        width: 80%;
+        width: 90%;
       }
       .award-images2{
-        width: 90%;
+        width: 70%;
       }
       }
