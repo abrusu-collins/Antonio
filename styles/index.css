@@ -41,7 +41,7 @@ overflow: hidden;
 }
 
 .poster-img{
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("./images/carousels/carousel2.webp");
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../images/carousels/carousel2.webp");
   height: 100vh;
 }
 /* navbar */
