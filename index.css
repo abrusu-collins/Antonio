@@ -365,3 +365,10 @@ overflow: hidden;
     height: 13vh;
   }
 }
+
+@media screen and (max-width:432px) {
+  .about{
+    text-align: center;
+  }
+  
+}
