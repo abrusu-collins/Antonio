@@ -320,8 +320,8 @@ overflow: hidden;
 .fade{
   display: none;
 }  
-donot-display{
-  display: block !important;
+.donot-display{
+  display: block;
 } 
 }
 @media screen and (max-width:750px) {
