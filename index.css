@@ -282,3 +282,13 @@ overflow: hidden;
 .socials a i:hover{
     color: var(--color-text);
 }
+
+/* media queries*/
+@media screen and (max-width:1240px) {
+  .about, .award-images,   .services .service-inner, .contacts{
+    width: 80%;
+  }
+  .award-images2{
+    width: 40%;
+  }
+}
