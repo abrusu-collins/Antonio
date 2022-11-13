@@ -120,4 +120,7 @@ body{
         grid-template-columns: 1fr;
         width: 70%;
     }
+    .portfolio{
+        grid-template-columns: 1fr; 
+    }
     }
